@@ -327,7 +327,7 @@ define Device/hiwifi_hc5962
   SOC := mt7621
   BLOCKSIZE := 128k
   PAGESIZE := 2048
-  KERNEL_SIZE := 2097152
+  KERNEL_SIZE := 4096k
   UBINIZE_OPTS := -E 5
   IMAGE_SIZE := 32768k
   IMAGES += factory.bin
